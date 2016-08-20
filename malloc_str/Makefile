@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-g
+CFLAGS=-g -m32
 
 malloc_str:
 	${CC} -o malloc_str ${CFLAGS} malloc_str.c

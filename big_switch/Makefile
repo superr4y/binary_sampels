@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-g
+CFLAGS=-g -m32
 
 big_switch:
 	${CC} -o big_switch ${CFLAGS} big_switch.c
